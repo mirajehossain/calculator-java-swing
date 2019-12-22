@@ -52,7 +52,10 @@ public class Calculator extends javax.swing.JFrame {
         jBtnEqual = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Calculator");
+        setBackground(new java.awt.Color(254, 148, 42));
 
+        jtxtDisplay.setBackground(new java.awt.Color(255, 168, 82));
         jtxtDisplay.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
         jtxtDisplay.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jtxtDisplay.addActionListener(new java.awt.event.ActionListener() {
@@ -61,6 +64,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn1.setBackground(new java.awt.Color(255, 168, 82));
         jBtn1.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn1.setText("1");
         jBtn1.addActionListener(new java.awt.event.ActionListener() {
@@ -69,6 +73,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn2.setBackground(new java.awt.Color(255, 168, 82));
         jBtn2.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn2.setText("2");
         jBtn2.addActionListener(new java.awt.event.ActionListener() {
@@ -77,6 +82,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn3.setBackground(new java.awt.Color(255, 168, 82));
         jBtn3.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn3.setText("3");
         jBtn3.addActionListener(new java.awt.event.ActionListener() {
@@ -85,6 +91,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn4.setBackground(new java.awt.Color(255, 168, 82));
         jBtn4.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn4.setText("4");
         jBtn4.addActionListener(new java.awt.event.ActionListener() {
@@ -93,6 +100,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn5.setBackground(new java.awt.Color(255, 168, 82));
         jBtn5.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn5.setText("5");
         jBtn5.addActionListener(new java.awt.event.ActionListener() {
@@ -101,6 +109,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn6.setBackground(new java.awt.Color(255, 168, 82));
         jBtn6.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn6.setText("6");
         jBtn6.addActionListener(new java.awt.event.ActionListener() {
@@ -109,6 +118,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn7.setBackground(new java.awt.Color(255, 168, 82));
         jBtn7.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn7.setText("7");
         jBtn7.addActionListener(new java.awt.event.ActionListener() {
@@ -117,6 +127,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn8.setBackground(new java.awt.Color(255, 168, 82));
         jBtn8.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn8.setText("8");
         jBtn8.addActionListener(new java.awt.event.ActionListener() {
@@ -125,6 +136,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn9.setBackground(new java.awt.Color(255, 168, 82));
         jBtn9.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn9.setText("9");
         jBtn9.addActionListener(new java.awt.event.ActionListener() {
@@ -133,6 +145,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn0.setBackground(new java.awt.Color(255, 168, 82));
         jBtn0.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn0.setText("0");
         jBtn0.addActionListener(new java.awt.event.ActionListener() {
@@ -141,6 +154,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtnPlus.setBackground(new java.awt.Color(255, 168, 82));
         jBtnPlus.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtnPlus.setText("+");
         jBtnPlus.addActionListener(new java.awt.event.ActionListener() {
@@ -149,6 +163,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtnMinus.setBackground(new java.awt.Color(255, 168, 82));
         jBtnMinus.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtnMinus.setText("-");
         jBtnMinus.addActionListener(new java.awt.event.ActionListener() {
@@ -157,6 +172,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtnMul.setBackground(new java.awt.Color(255, 168, 82));
         jBtnMul.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtnMul.setText("*");
         jBtnMul.addActionListener(new java.awt.event.ActionListener() {
@@ -165,6 +181,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtnDiv.setBackground(new java.awt.Color(255, 168, 82));
         jBtnDiv.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtnDiv.setText("/");
         jBtnDiv.addActionListener(new java.awt.event.ActionListener() {
@@ -173,6 +190,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn15.setBackground(new java.awt.Color(255, 168, 82));
         jBtn15.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn15.setText("+/-");
         jBtn15.addActionListener(new java.awt.event.ActionListener() {
@@ -181,6 +199,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn16.setBackground(new java.awt.Color(255, 168, 82));
         jBtn16.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn16.setText("%");
         jBtn16.addActionListener(new java.awt.event.ActionListener() {
@@ -189,6 +208,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtn17.setBackground(new java.awt.Color(255, 6, 0));
         jBtn17.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtn17.setText("CE");
         jBtn17.addActionListener(new java.awt.event.ActionListener() {
@@ -197,6 +217,7 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        jBtnEqual.setBackground(new java.awt.Color(43, 164, 1));
         jBtnEqual.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jBtnEqual.setText("=");
         jBtnEqual.addActionListener(new java.awt.event.ActionListener() {
@@ -213,7 +234,7 @@ public class Calculator extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
+                        .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jBtn9, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -241,12 +262,12 @@ public class Calculator extends javax.swing.JFrame {
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                     .addComponent(jBtn4, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jBtnMul, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(jBtnDiv, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jBtn17, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jBtn17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(layout.createSequentialGroup()
